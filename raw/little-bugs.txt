@@ -1,0 +1,2 @@
+1, the collapsible menu is kinda weird when expand
+2, the expandable summary-detail: the blue doesn't fill al the way down
