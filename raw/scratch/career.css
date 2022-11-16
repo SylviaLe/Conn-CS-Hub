@@ -1,0 +1,92 @@
+html,body{
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.page-head{
+    margin-left: 25vw;
+    margin-right:25vw;
+}
+
+.main{
+    margin-left: 12vw;
+    margin-right:12vw;
+}
+
+
+a,a:link,a:visited,a:focus,a:hover,a:active{
+    text-decoration: none;
+    color: black;
+  }
+  a.nav-link{
+    font-weight: 800;
+  }
+
+.navbar-nav
+{
+    float: none;
+}
+
+.navbar-toggler
+{
+    display: block;
+}
+
+.navbar-collapse.collapse
+{
+    display: none!important;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+
+
+.conn-blue{
+    color: #4a72aa!important;
+}
+
+.conn-blue-bg{
+    background-color: #4a72aa;
+    background-size:cover;
+}
+
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.card{
+    border-radius: 10px!important;
+}
+
+.card-body{
+    height: 20vh;
+}
+
+.gradient-1{
+    background: no-repeat linear-gradient(120deg, #ff0a45 0%, #ff4261 23%,  #ffad97 100%);
+}
+
+.gradient-2{
+    background: no-repeat linear-gradient(120deg, #cdb4db 0%, #ffafcc 23%,  #a2d2ff 100%);
+}
+
+.gradient-3{
+    background: no-repeat linear-gradient(120deg, #EDEEC9 0%, #BFD8BD 23%,  #77BFA3 100%);
+}
+
+.gradient-4{
+    background: no-repeat linear-gradient(120deg, #cae9ff 0%, #1b4965 23%,  #62b6cb 100%);
+}
+
+.card-foot{
+    height: 5%;
+    background-color: #f9f7f7!important;
+}
+
