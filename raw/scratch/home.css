@@ -25,6 +25,11 @@ h1.page-title{
   font-weight: 900;
 }
 
+section.main-content{
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
 .talk-bubble {
 	width: 275px;
 	height: auto;
@@ -80,10 +85,22 @@ a.all-events-link{
   margin-right:auto;
 }
 
-.resources,events{
+section.resources{
+  background-color: #f1f7ff!important;
+  position: absolute;
+  top: 225vh;
+  left:0;
+  right:0;
+  padding-left:15vw;
+  padding-right:15vw;
+}
+
+/* .resources,events{
   margin-top: 30vh;
   margin-bottom: 20vh;
-}
+} */
+
+
 
 .section-title{
   font-family: 'Montserrat', sans-serif;
@@ -95,6 +112,10 @@ a.all-events-link{
 
 .event-title{
   font-weight: 900;
+}
+
+.card{
+  border-radius: 0 !important;
 }
 
 .card-title,.card-text{
@@ -130,4 +151,11 @@ a.all-events-link{
 
 .custom-shape-divider-bottom-1668365570 .shape-fill {
   fill: #FFFFFF;
+}
+
+footer {
+  position: absolute;
+  top: 375vh;
+  bottom: 0;
+  width: 100%;
 }
