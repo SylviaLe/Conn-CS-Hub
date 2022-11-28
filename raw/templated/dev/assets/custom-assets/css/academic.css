@@ -1,0 +1,28 @@
+a,a:link,a:visited,a:focus,a:hover,a:active{
+    text-decoration: none;
+    color: black;
+  }
+  a.nav-link{
+    font-weight: 800;
+  }
+
+.page-title{
+    background-color: #f1f7ff!important;
+}
+
+section.breadcrums{
+    display: flex;
+  justify-content: center;
+}
+
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conn-blue{
+  color: #4a72aa;
+}
+
+.conn-blue-bg{
+  background-color: #4a72aa!important;
+}

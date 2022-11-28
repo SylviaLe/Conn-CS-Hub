@@ -1,3 +1,6 @@
 - tas/sabs: about page
 - profs: item-detail
-- homapge:
+- homapge: ?
+- career
+- events: blog
+- faq: faq
