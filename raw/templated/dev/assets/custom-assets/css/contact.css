@@ -6,10 +6,6 @@ a,a:link,a:visited,a:focus,a:hover,a:active{
     font-weight: 800;
   }
 
-  .nav-item{
-    z-index: 1000;
-  }
-
 .page-title{
     background-color: #f1f7ff!important;
 }
