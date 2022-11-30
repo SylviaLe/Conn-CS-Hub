@@ -29,24 +29,6 @@ a,a:link,a:visited,a:focus,a:hover,a:active{
     font-weight: 800;
   }
 
-.navbar-nav
-{
-    float: none;
-}
-
-.navbar-toggler
-{
-    display: block;
-}
-
-.navbar-collapse.collapse
-{
-    display: none!important;
-}
-
-.navbar-collapse.collapse.in {
-    display: block!important;
-  }
 
 
 .conn-blue{
@@ -69,12 +51,10 @@ details > summary {
     display: none;
   }
 
-  .event-card{
-    background-color: #f9f7f7 !important;
-  }
+.find-btn{
+  text-align: right;
+}
 
-  .card-img-top {
-    width: 25vh !important;
-    height: 25vh !important;
-    object-fit: cover;
-  }
+.search-field{
+  margin-bottom: 75vh;
+}

@@ -14,7 +14,6 @@ html,body{
 .main{
     margin-left: 12vw;
     margin-right:12vw;
-    font-family: 'Courier New', Courier, monospace !important;
 }
 
 .navigation{
@@ -28,25 +27,6 @@ a,a:link,a:visited,a:focus,a:hover,a:active{
   }
   a.nav-link{
     font-weight: 800;
-  }
-
-.navbar-nav
-{
-    float: none;
-}
-
-.navbar-toggler
-{
-    display: block;
-}
-
-.navbar-collapse.collapse
-{
-    display: none!important;
-}
-
-.navbar-collapse.collapse.in {
-    display: block!important;
   }
 
 
@@ -71,12 +51,9 @@ details > summary {
   }
 
 .card{
-    border-radius: 10px!important;
+    border-radius: 0px!important;
 }
 
-.card-body{
-    height: 20vh;
-}
 
 .gradient-1{
     background: no-repeat linear-gradient(120deg, #ff0a45 0%, #ff4261 23%,  #ffad97 100%);
@@ -94,8 +71,12 @@ details > summary {
     background: no-repeat linear-gradient(120deg, #cae9ff 0%, #1b4965 23%,  #62b6cb 100%);
 }
 
-.card-foot{
-    height: 5%;
-    background-color: #f9f7f7!important;
+.view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.interview, .resume{
+    margin-bottom: 25vh!important;
+}

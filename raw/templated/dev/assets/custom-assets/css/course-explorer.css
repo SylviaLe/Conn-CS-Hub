@@ -7,8 +7,6 @@
 .main{
     margin-left: 12vw;
     margin-right:12vw;
-    font-family: 'Courier New', Courier, monospace !important;
-
 }
 
 a,a:link,a:visited,a:focus,a:hover,a:active{
@@ -47,9 +45,25 @@ a,a:link,a:visited,a:focus,a:hover,a:active{
 }
 
 .conn-light-blue-bg{
-    background-color: #3a89ff!important;
+    background-color: #f1f7ff!important;
 }
 
-/* .mont{
-    font-family: 'Montserrat', sans-serif;
-} */
+.conn-light-blue-bg-2{
+    background-color: #dfedff!important;
+}
+
+.time-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    padding: 0!important;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
